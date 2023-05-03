@@ -1,0 +1,31 @@
+package utlis;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.core.app.Customer;
+
+import Custom_Exception.CustomerHandlingException;
+
+import static utlis.CustomerValidationRules.validateAllInputs;
+
+public class CustomerUtils {
+	
+	public static List<Customer> populateCustomerlist() throws CustomerHandlingException{
+		
+		ArrayList<Customer> Customers = new ArrayList<>();
+		
+		//Mohan Talavar mohan.talawar.20@gmail.com root123 10000 2000-05-20 platinum
+//		Tushar Pawar tusharp0@gmail.com root123 1000 2001-01-01 silver
+//		Pranay patil pranaypatil0@gmail.com root123 2000 1998-01-01 gold
+//		Abdul ahad aahadabdul0@gmail.com root123 5000 1999-01-01 diamond 
+		
+		Customers.add(validateAllInputs("Mohan", "Talavar", "mohan.talawar.20@gmail.com", "root123", 10000, "2000-05-20", "platinum", Customers));
+		Customers.add(validateAllInputs("Tushar", "Pawar" ,"tusharp0@gmail.com" , "root123", 1000, "2001-01-01", "silver", Customers));
+		Customers.add(validateAllInputs("Pranay", "Patil", "pranaypatil0@gmail.com", "root123", 2000, "1998-01-01", "gold", Customers));
+		Customers.add(validateAllInputs("Abdul", "Aahad", "aahadabdul0@gmail.com", "root123", 5000,"1999-01-01" , "diamond" , Customers));
+			
+		return Customers;		
+	}
+
+}
