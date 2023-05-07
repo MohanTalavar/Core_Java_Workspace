@@ -1,0 +1,285 @@
+No dup found
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+1
+Enter vehicle details : chasisNo,  vehicleColor,  basePrice,  manufactureDate(yr-mon-day),  company
+kklflkjjfaj
+adkad
+akdkja
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2564)
+	at tester.testerVehicle.main(testerVehicle.java:50)
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+1
+Enter vehicle details : chasisNo,  vehicleColor,  basePrice,  manufactureDate(yr-mon-day),  company
+101 White 800000 2023-05-07 Honda
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+No dup found
+Vehicle Added !!!!!!!!!
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=395678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1230, vehicleColor=WHITE@ Cost: 10000.0, netprice=455678.0, manufacturingDate=2023-03-14, company=Honda]
+Vehicle [chasisNo=abc-1233, vehicleColor=WHITE@ Cost: 10000.0, netprice=385678.0, manufacturingDate=2023-02-18, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=365678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1239, vehicleColor=WHITE@ Cost: 10000.0, netprice=405678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1231, vehicleColor=WHITE@ Cost: 10000.0, netprice=355878.0, manufacturingDate=2023-03-15, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=435678.0, manufacturingDate=2023-03-25, company=Honda]
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=320678.0, manufacturingDate=2023-02-14, company=Maruti]
+Vehicle [chasisNo=101, vehicleColor=WHITE@ Cost: 10000.0, netprice=810000.0, manufacturingDate=2023-05-07, company=Honda]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+3
+Enter Chasis No
+abc-1240
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+Vehicle Found!!! 
+Vehicle details : Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=320678.0, manufacturingDate=2023-02-14, company=Maruti]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+4
+Enter date(yyyy-mm-dd) and Disc amount: 
+2023-05-07 100000
+Discount applied!!!!!!
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1230, vehicleColor=WHITE@ Cost: 10000.0, netprice=355678.0, manufacturingDate=2023-03-14, company=Honda]
+Vehicle [chasisNo=abc-1233, vehicleColor=WHITE@ Cost: 10000.0, netprice=285678.0, manufacturingDate=2023-02-18, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1239, vehicleColor=WHITE@ Cost: 10000.0, netprice=305678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1231, vehicleColor=WHITE@ Cost: 10000.0, netprice=255878.0, manufacturingDate=2023-03-15, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Vehicle [chasisNo=101, vehicleColor=WHITE@ Cost: 10000.0, netprice=810000.0, manufacturingDate=2023-05-07, company=Honda]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+5
+Enther chasis no: 
+101
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+in vechicles equals
+Vehicle removed!!!!!!!
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+
+2
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1230, vehicleColor=WHITE@ Cost: 10000.0, netprice=355678.0, manufacturingDate=2023-03-14, company=Honda]
+Vehicle [chasisNo=abc-1233, vehicleColor=WHITE@ Cost: 10000.0, netprice=285678.0, manufacturingDate=2023-02-18, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1239, vehicleColor=WHITE@ Cost: 10000.0, netprice=305678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1231, vehicleColor=WHITE@ Cost: 10000.0, netprice=255878.0, manufacturingDate=2023-03-15, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+6
+ENter color: 
+white
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+7
+In vehicles compareTo
+In vehicles compareTo
+In vehicles compareTo
+In vehicles compareTo
+In vehicles compareTo
+In vehicles compareTo
+[Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda], Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda], Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti], Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+8
+in innerclass sorting price
+in innerclass sorting price
+in innerclass sorting price
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+9
+in innerclas sorting date and price
+in innerclas sorting date and price
+in innerclas sorting date and price
+in innerclas sorting date and price
+in innerclas sorting date and price
+in innerclas sorting date and price
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+10
+in innerclass sorting date
+in innerclass sorting date
+in innerclass sorting date
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+2
+Vehicle [chasisNo=abc-1240, vehicleColor=BLACK@ Cost: 15000.0, netprice=220678.0, manufacturingDate=2023-02-14, company=Maruti]
+Vehicle [chasisNo=abc-1234, vehicleColor=RED@ Cost: 50000.0, netprice=295678.0, manufacturingDate=2023-02-14, company=Honda]
+Vehicle [chasisNo=abc-1238, vehicleColor=RED@ Cost: 50000.0, netprice=265678.0, manufacturingDate=2023-03-01, company=Maruti]
+Vehicle [chasisNo=abc-1232, vehicleColor=RED@ Cost: 50000.0, netprice=335678.0, manufacturingDate=2023-03-25, company=Honda]
+Options 1. Add a Vehicle 2. Display all 
+3. Get specific vehicle details 4. Apply discount  
+5. Delete vehicle details  by ch no 6. Delete vehicles by color 
+7. Sort the vehicles as per ch no 8. Sort the vehicles as per price 
+9. Sort the vehicles as per date n price 10. Sort the vehicles as per date 0. Exit
+Choose an option
+0
