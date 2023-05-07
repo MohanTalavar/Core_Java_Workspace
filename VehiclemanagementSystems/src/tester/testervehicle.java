@@ -178,7 +178,7 @@ public class testerVehicle {
 						break;
 						
 					case 0: // exit
-						
+						System.out.println(Exitng the code);
 						exit=true;
 						break;
 						
