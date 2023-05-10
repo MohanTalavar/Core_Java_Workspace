@@ -6,11 +6,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.HashMap;
 import java.util.Map;
 
 import com.app.core.Emp;
-
-import CustionException.EmpExcptionHandling;
 
 public interface IoUtils {
 	
@@ -22,28 +21,20 @@ public interface IoUtils {
 		}
 		
 	}// serialization success!!1
-	
+		
 	@SuppressWarnings("unchecked")
-	static Map<String,Emp> restoreEmpdetails(String filename) throws FileNotFoundException, IOException, ClassNotFoundException {
+	static Map<String,Emp> restoreEmpdetails1(String filename){
 		
+		// deser strm :  Java app <-- OIs <-- fis <-- bin file
 		
-		// java app <-- ois <-- fis <-- bin file
-		try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename) ))
-		{
+		try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename))){
+			// deser
+			return (Map<String, Emp>) in.readObject();
 			
-			
-			return (Map<String, Emp>) ( in.readObject());  // typecast
+		}catch (Exception e) {
+			System.out.println("err during de-serial "+ e);
+			return new HashMap<>();
 		}
-//		catch(FileNotFoundException f) {
-//			throw new EmpExcptionHandling("File Not Found");
-//		}
-//		catch(Exception e) {
-//			e.printStackTrace();
-//		}
 		
-//		return null;
-	}// deserialization success
-	
-	
-
+	}// end of api
 }
